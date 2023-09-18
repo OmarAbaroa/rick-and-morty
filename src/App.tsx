@@ -5,14 +5,11 @@ import { Layout } from "./components";
 function App() {
   return (
     <>
-      <HashRouter>
+      <HashRouter basename="/rick-and-morty">
         <Layout>
           <Routes>
-            <Route path="/rick-and-morty" element={<HomePage />} />
-            <Route
-              path="/rick-and-morty/character/:id"
-              element={<CharacterPage />}
-            />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/character/:id" element={<CharacterPage />} />
           </Routes>
         </Layout>
       </HashRouter>
