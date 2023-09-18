@@ -1,0 +1,48 @@
+.image {
+  border-radius: 5%;
+  width: 100%;
+}
+
+.name {
+  text-align: center;
+  font-size: 2.5em !important;
+  color: #a6eee6;
+  font-weight: bolder !important;
+  text-shadow: 0 0 8px #526e2d, 0 0 8px #526e2d;
+  font-family: "Creepster", cursive !important;
+  margin-top: 0.3em !important;
+  margin-bottom: 0.3em !important;
+}
+
+.nameContainer {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.columnReverse {
+  flex-direction: column-reverse;
+}
+
+.listIcon {
+  min-width: unset !important;
+  margin-right: 1em !important;
+}
+
+.dataContainer {
+  margin-top: 0.3em !important;
+  margin-bottom: 0.3em !important;
+  padding: 1rem;
+}
+
+.dataContainer .MuiGrid-item {
+  padding: 0.25em;
+}
+
+.rickLetter {
+  color: #a6eee6;
+  text-shadow: 0 0 2px #526e2d, 0 0 2px #526e2d;
+  font-family: "Creepster", cursive !important;
+}

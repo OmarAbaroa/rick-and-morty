@@ -1,0 +1,26 @@
+.container {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 1.5em;
+}
+
+.logoContainer {
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.imageLogo {
+  width: 100%;
+}
+
+.layout {
+  min-height: 100vh;
+}
+
+.morty {
+  background-color: #f8bd9166;
+}
+
+.rick {
+  background-color: #d5c8b866;
+}

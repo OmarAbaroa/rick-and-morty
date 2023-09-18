@@ -1,0 +1,65 @@
+.fullImage {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.cardContent {
+  background-color: rgb(244, 247, 250) !important;
+}
+
+.dividerLine {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.nameText {
+  text-align: center;
+}
+
+.male {
+  color: blue;
+}
+
+.female {
+  color: pink;
+}
+
+.unknown {
+  color: orange;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.rightAligned {
+  text-align: right;
+}
+
+.chip {
+  background-color: #a6eee6 !important;
+  color: #526e2d !important;
+}
+
+.avatar {
+  border: solid 1px #526e2d !important;
+  color: #526e2d !important;
+  background-color: transparent !important;
+}
+
+.link {
+  text-align: center;
+  margin-top: 0.75em;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.cardAction {
+  &:hover {
+    cursor: default;
+  }
+}
