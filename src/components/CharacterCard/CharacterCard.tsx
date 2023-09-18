@@ -82,7 +82,7 @@ export const CharacterCard: FC<PropsType> = ({ character }) => {
           <Divider className="dividerLine" />
           <Typography className="link">
             <Link
-              href={`/character/${character.id}`}
+              href={`/rick-and-morty/character/${character.id}`}
               variant="body1"
               underline="hover"
             >
