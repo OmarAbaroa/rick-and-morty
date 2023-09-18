@@ -15,10 +15,14 @@ export const Layout: FC<LayoutProps> = ({ children }) => {
   const router = useLocation();
 
   return (
-    <div className={`layout ${router.pathname !== "/" ? "morty" : "rick"}`}>
+    <div
+      className={`layout ${
+        router.pathname !== "/rick-and-morty" ? "morty" : "rick"
+      }`}
+    >
       <Grid container className="logoContainer">
         <Grid item xs={12} md={6} lg={4}>
-          <Link href="/">
+          <Link href="/rick-and-morty">
             <img
               className="imageLogo"
               src={RickMortyLogo}

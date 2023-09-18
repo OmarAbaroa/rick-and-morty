@@ -8,8 +8,11 @@ function App() {
       <HashRouter>
         <Layout>
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/character/:id" element={<CharacterPage />} />
+            <Route path="/rick-and-morty" element={<HomePage />} />
+            <Route
+              path="/rick-and-morty/character/:id"
+              element={<CharacterPage />}
+            />
           </Routes>
         </Layout>
       </HashRouter>
