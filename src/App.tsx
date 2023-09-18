@@ -5,7 +5,7 @@ import { Layout } from "./components";
 function App() {
   return (
     <>
-      <HashRouter basename="rick-and-morty">
+      <HashRouter>
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />
