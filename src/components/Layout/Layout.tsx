@@ -22,7 +22,7 @@ export const Layout: FC<LayoutProps> = ({ children }) => {
     >
       <Grid container className="logoContainer">
         <Grid item xs={12} md={6} lg={4}>
-          <Link href="/rick-and-morty">
+          <Link href="#/">
             <img
               className="imageLogo"
               src={RickMortyLogo}
